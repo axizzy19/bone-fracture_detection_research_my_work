@@ -1,0 +1,25 @@
+C:\Users\Alexandra>D:
+
+D:\>cd MyWork
+
+(D:\MyWork>python -m venv venv_my-bone-fracture)
+
+D:\MyWork>venv_my-bone-fracture\Scripts\activate
+
+(venv_my-bone-fracture) D:\MyWork>
+
+2. Устанавливаем библиотеки
+# Основные библиотеки для работы
+pip install numpy pandas matplotlib opencv-python pillow tqdm
+
+# Для работы с аннотациями
+pip install pycocotools
+
+# Для аугментаций
+pip install albumentations
+
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+
+# Jupyter для исследований
+pip install jupyter notebook
+
